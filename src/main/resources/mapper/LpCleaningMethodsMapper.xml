@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.li.user.mapper.LpCleaningMethodsMapper">
 
-    <resultMap id="BaseResultMap" type="generator.domain.LpCleaningMethods">
+    <resultMap id="BaseResultMap" type="com.li.user.model.LpCleaningMethods">
             <id property="id" column="id" jdbcType="INTEGER"/>
             <result property="method_name" column="method_name" jdbcType="VARCHAR"/>
             <result property="description" column="description" jdbcType="VARCHAR"/>

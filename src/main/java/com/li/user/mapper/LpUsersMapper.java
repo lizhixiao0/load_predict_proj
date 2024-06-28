@@ -1,7 +1,8 @@
 package com.li.user.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import generator.domain.LpUsers;
+import com.li.user.model.LpUsers;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
 * @author lzx
@@ -9,6 +10,7 @@ import generator.domain.LpUsers;
 * @createDate 2024-06-21 18:18:39
 * @Entity generator.domain.LpUsers
 */
+@Mapper
 public interface LpUsersMapper extends BaseMapper<LpUsers> {
 
 }

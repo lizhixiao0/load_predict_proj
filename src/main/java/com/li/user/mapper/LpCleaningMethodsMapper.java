@@ -2,6 +2,7 @@ package com.li.user.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.li.user.model.LpCleaningMethods;
+import org.apache.ibatis.annotations.Mapper;
 
 
 /**
@@ -10,6 +11,7 @@ import com.li.user.model.LpCleaningMethods;
 * @createDate 2024-06-21 18:24:21
 * @Entity generator.domain.LpCleaningMethods
 */
+@Mapper
 public interface LpCleaningMethodsMapper extends BaseMapper<LpCleaningMethods> {
 
 }

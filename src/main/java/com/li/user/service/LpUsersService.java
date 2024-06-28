@@ -1,7 +1,8 @@
 package com.li.user.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import generator.domain.LpUsers;
+import com.li.user.model.LpUsers;
+
 
 /**
 * @author lzx

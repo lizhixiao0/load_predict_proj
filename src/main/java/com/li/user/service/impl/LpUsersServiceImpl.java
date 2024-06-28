@@ -2,8 +2,9 @@ package com.li.user.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.li.user.mapper.LpUsersMapper;
+import com.li.user.model.LpUsers;
 import com.li.user.service.LpUsersService;
-import generator.domain.LpUsers;
+
 import org.springframework.stereotype.Service;
 
 /**
