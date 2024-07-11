@@ -2,6 +2,10 @@ package com.li.user.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.li.user.model.LpUsers;
+import com.li.user.model.qo.LoginQo;
+
+import javax.servlet.http.HttpServletRequest;
+import java.util.Map;
 
 
 /**
@@ -11,4 +15,13 @@ import com.li.user.model.LpUsers;
 */
 public interface LpUsersService extends IService<LpUsers> {
 
+    Map<String, String> login(LoginQo loginQo);
+
+    boolean register(LpUsers users);
+
+    LpUsers getUserInfo(HttpServletRequest request);
+
+    boolean addUser(LpUsers users);
+
+    boolean deleteUserById(Integer id);
 }

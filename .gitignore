@@ -1,4 +1,6 @@
 HELP.md
+src/main/java/com/li/user/hirain_jar/
+src/main/java/com/li/user/hirain
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/

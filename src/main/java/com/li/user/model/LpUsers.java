@@ -44,7 +44,7 @@ public class LpUsers implements Serializable {
      * 
      */
     @TableField(value = "phone_number")
-    private String phone_number;
+    private String phoneNumber;
 
     /**
      * 
@@ -56,25 +56,25 @@ public class LpUsers implements Serializable {
      * 
      */
     @TableField(value = "created_at")
-    private Date created_at;
+    private Date createdAt;
 
     /**
      * 
      */
     @TableField(value = "updated_at")
-    private Date updated_at;
+    private Date updatedAt;
 
     /**
      * 
      */
     @TableField(value = "status")
-    private Object status;
+    private String status;
 
     /**
      * 
      */
     @TableField(value = "profile_info")
-    private Object profile_info;
+    private String profileInfo;
 
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;
